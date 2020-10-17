@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /custom-path
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+application:
+  swagger:
+    title: 'com.tdp.ms:demo'
+    description: 'Template from Genesis Framework to build microservices'
+    version: '0.1.17'
+    contact:
+      name: Telefonica del Peru
+      url: https://www.telefonica.com.pe
+      email: correo@dominio.com
+    license:
+      type: copyright
+      url: https://www.telefonica.com.pe
